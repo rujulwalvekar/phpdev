@@ -1,0 +1,35 @@
+html {
+    font-family:arial;
+    font-size: 18px;
+  }
+  
+  td {
+      /* border color */
+    border: 1px solid #726E6D;
+    padding: 15px;
+  }
+  
+  thead,tfoot{
+    font-weight:bold;
+    text-align:left;
+    /* header color */
+    background: #625D5D;
+    color:white;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+  }
+  
+  .footer {
+    text-align:right;
+    font-weight:bold;
+  }
+  
+  tbody >tr:nth-child(odd) {
+      /* odd column color */
+    background: #D1D0CE;
+  }
+  
