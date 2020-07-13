@@ -1,0 +1,46 @@
+/* form {
+  display: block;
+} */
+
+body {
+    background-color:rgb(252, 152, 1);
+    color: darkgrey;
+  }
+  
+  form {
+    text-align: center;
+    width: 50%;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  
+  input[type=text],
+  input[type=number] ,
+  input[type=tel],textarea
+  {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    color: #0088cc;
+    background color: rgb(252, 251, 249);
+  }
+  
+  input[type=submit] {
+    width: fit-content;
+    float: right;
+  }
+  
+  label {
+    float: left;
+    margin-left: 10%;
+  }
+  textarea{
+    width: 80%;
+    height: auto;
+  }
+
+ .container{
+     background-color: aquamarine;
+ }
