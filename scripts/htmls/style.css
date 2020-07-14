@@ -24,7 +24,7 @@ body {
     box-sizing: border-box;
     border: none;
     color: #0088cc;
-    background color: rgb(252, 251, 249);
+    background-color: rgb(252, 251, 249);
   }
   
   input[type=submit] {
@@ -41,6 +41,6 @@ body {
     height: auto;
   }
 
- .container{
+ .container p-3 my-3 bg-primary text-white{
      background-color: aquamarine;
  }

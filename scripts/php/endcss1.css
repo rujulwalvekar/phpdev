@@ -1,0 +1,55 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+.tablink {
+    background-color: rgba(240, 188, 224, 0.253);
+    color: black;
+    float: left;
+    width: 20%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 22px 14px;
+    font-size: 17px;
+}
+
+.tablink:hover {
+    background-color: rgba(255, 255, 255, 0.877);
+}
+
+.tabcontent {
+    color: black;
+    text-align: center;
+    height: 100%;
+    /* height is 100% to make it full page tabs */
+    padding: 100px 20px;
+    font-size: 19px;
+    display: none;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+table {
+    text-align: left;
+    margin: auto;
+    font-size: 19px;
+}
+
+#Database {
+    background-color: papayawhip;
+}
+
+#Search_for_Students {
+    background-color: peachpuff;
+}
+
+#Delete_Records {
+    background-color: paleturquoise;
+}
